@@ -50,6 +50,34 @@ nlu:
     - no way
     - not really
 
+- intent: mood_soso
+  examples: |
+    - I'm ok
+    - soso
+    - ok...
+    - I'm soso
+    - I think I'm ok
+    - I guess...
+    - I guess
+    - I think so
+    - I don't know
+    - Idk
+    - meh
+    - Maybe
+    - Not sure
+
+- intent: mood_angry
+  examples: |
+    - I'm annoyed
+    - I'm so annoyed
+    - Fuck
+    - I hate
+    - I hate my life
+    - This is shit
+    - I'm pissed
+    - I'm angry
+    - I'm annoyed
+
 - intent: mood_great
   examples: |
     - perfect
@@ -67,6 +95,18 @@ nlu:
     - so good
     - so perfect
 
+- intent: mood_suicidal
+  examples: |
+  - I don't want to live anymore
+  - I can't do this anymore
+  - I want to die
+  - I want to kill myself
+  - I want to off myself
+  - The only exit I see is death
+  - I wonder if anyone cares if I die
+  - Would anyone care if I'm gone
+
+
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,6 +123,7 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - :(
 
 - intent: bot_challenge
   examples: |
