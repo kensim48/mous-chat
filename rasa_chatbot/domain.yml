@@ -11,6 +11,10 @@ intents:
   - mood_suicidal
   - mood_unhappy
   - bot_challenge
+  - hobby_partying
+  - hobby_gaming
+  - hobby_reading
+  - hobby_sports
 
 responses:
   utter_greet:
@@ -31,6 +35,7 @@ responses:
 
   utter_suicide:
   - text: "Here is a link the suicide prevention line"
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
   
