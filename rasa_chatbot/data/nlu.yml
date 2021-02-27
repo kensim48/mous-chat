@@ -133,6 +133,7 @@ nlu:
     - am I talking to a human?
 
 - intent: hobby_partying
+  examples: |
     - I want to club
     - I miss clubbing
     - Favourite club
@@ -143,6 +144,7 @@ nlu:
     - House party
 
 - intent: hobby_gaming
+  examples: |
     - dota2
     - pacman
     - I like playing on my conputer
@@ -196,7 +198,6 @@ nlu:
     - Sustainable business
     - Sustainable
     - Sustainability
-    - 
     - Viable Environment and economy
     - Equitable social and economy
     - Sustainable future
@@ -209,7 +210,13 @@ nlu:
     - Brands
     - Clothes
     - Fashion is my passion
-    - 
+    - Dior
+    - Prada
+    - Tiktok Fashion
+    - Shoes
+    - Louis Vuitton
+    - Gucci
+  
 - intent: topic_technology
   examples: |
     - Cloud technology

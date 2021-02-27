@@ -15,6 +15,11 @@ intents:
   - hobby_gaming
   - hobby_reading
   - hobby_sports
+  - topic_sustainability
+  - topic_fashion
+  - topic_technology
+  - topic_stocks
+  - topic_relationship
 
 responses:
   utter_greet:
