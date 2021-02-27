@@ -97,14 +97,14 @@ nlu:
 
 - intent: mood_suicidal
   examples: |
-  - I don't want to live anymore
-  - I can't do this anymore
-  - I want to die
-  - I want to kill myself
-  - I want to off myself
-  - The only exit I see is death
-  - I wonder if anyone cares if I die
-  - Would anyone care if I'm gone
+    - I don't want to live anymore
+    - I can't do this anymore
+    - I want to die
+    - I want to kill myself
+    - I want to off myself
+    - The only exit I see is death
+    - I wonder if anyone cares if I die
+    - Would anyone care if I'm gone
 
 
 - intent: mood_unhappy
