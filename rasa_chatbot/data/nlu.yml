@@ -97,14 +97,14 @@ nlu:
 
 - intent: mood_suicidal
   examples: |
-  - I don't want to live anymore
-  - I can't do this anymore
-  - I want to die
-  - I want to kill myself
-  - I want to off myself
-  - The only exit I see is death
-  - I wonder if anyone cares if I die
-  - Would anyone care if I'm gone
+    - I don't want to live anymore
+    - I can't do this anymore
+    - I want to die
+    - I want to kill myself
+    - I want to off myself
+    - The only exit I see is death
+    - I wonder if anyone cares if I die
+    - Would anyone care if I'm gone
 
 
 - intent: mood_unhappy
@@ -131,3 +131,56 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: hobby_partying
+    - I want to club
+    - I miss clubbing
+    - Favourite club
+    - Party
+    - Alcohol
+    - Drinking
+    - Clubbing
+    - House party
+
+- intent: hobby_gaming
+    - dota2
+    - pacman
+    - I like playing on my conputer
+    - Ps4
+    - Xbox
+    - Switch
+    - COD
+    - Fortnite
+    - Overwatch
+    - Call of duty
+    - League of Legends
+    - Overcooked
+
+- intent: hobby_reading
+  examples: |
+    - How to Kill a Mockingbird
+    - 1984, by George Orwell
+    - Harry Potter and the Philosopher's Stone
+    - The Lord of the Rings
+    - The Great Gatsby
+    - Pride and Prejudice
+    - The Diary Of A Young Girl
+    - The Book Thief
+
+- intent: hobby_sports
+  examples: |
+    - Ballet
+    - Football
+    - Volleyball
+    - Basketball
+    - Working out
+    - Gym
+    - Soccer
+    - Swimming
+    - E-sports
+    - Wii sports
+    - Hockey
+    - Jogging
+    - Running
+    - Exercising
+    - Gymming
