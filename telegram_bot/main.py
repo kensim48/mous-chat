@@ -33,7 +33,7 @@ last_hash = None
 tik_tok_chat = True
 
 BOT_CHAT, HUMAN_CHAT = range(2)
-FIRST_QNS, SECOND_QNS, THIRD_QNS =  = map(chr, range(4))
+FIRST_QNS, SECOND_QNS, THIRD_QNS = map(chr, range(4))
 
 def random_string():
     return ''.join(random.choice('0123456789ABCDEF') for i in range(16))
@@ -43,9 +43,14 @@ def random_string():
 def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
     update.message.reply_text('Hi Mousie_Bot here, good day to you.')
-    update.message.reply_text('How are you today?')
+    
 
-    return BOT_CHAT
+    return FIRST_QNS
+
+def firstQns(update: Update, context: CallbackContext) -> None:
+    update.message.reply_text('How are you today?')
+    chatbot(update, context)
+    return SECOND_QNS
 
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
@@ -112,7 +117,7 @@ def main():
         # entry_points=[MessageHandler(Filters.text & ~Filters.command, connectUser)],
         entry_points=[CommandHandler('start', start)],
         states={
-            FIRST_QNS: [ MessageHandler(Filters.text & ~Filters.command, firstQns)]
+            FIRST_QNS: [ MessageHandler(Filters.text & ~Filters.command, firstQns)],
             BOT_CHAT: [
                 MessageHandler(Filters.text & ~Filters.command, chatbot)
             ],
