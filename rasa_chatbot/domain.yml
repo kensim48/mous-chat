@@ -5,7 +5,10 @@ intents:
   - goodbye
   - affirm
   - deny
+  - mood_soso
+  - mood_angry
   - mood_great
+  - mood_suicidal
   - mood_unhappy
   - bot_challenge
 
@@ -26,8 +29,13 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
+  utter_suicide:
+  - text: "Here is a link the suicide prevention line"
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+  
+  utter_link:
+  - text: "Let me link you"
 
 session_config:
   session_expiration_time: 60
