@@ -55,7 +55,7 @@ def random_string():
 def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
     if DEBUG_MODE:
-        update.message.reply_text('DEBUG MODE ON')
+        update.message.reply_text('DEBUG MODE ON\nTo save on costs, bot replies may be slow')
     update.message.reply_text('Hi Mousie_Bot here, good day to you.')
     update.message.reply_text('How are you today?')
 
