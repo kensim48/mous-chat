@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/home/kensim28/kensim_portfolio/venv/bin/python
 # pylint: disable=W0613, C0116
 # type: ignore[union-attr]
 # This program is dedicated to the public domain under the CC0 license.
@@ -55,7 +55,7 @@ def random_string():
 def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
     if DEBUG_MODE:
-        update.message.reply_text('DEBUG MODE ON\nTo save on costs, bot replies may be slow')
+        update.message.reply_text('DEBUG MODE ON\nTo save on costs, bot replies may be slow\nIntents are organised from most likely to least likely.')
     update.message.reply_text('Hi Mousie_Bot here, good day to you.')
     update.message.reply_text('How are you today?')
 
